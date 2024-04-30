@@ -1,0 +1,327 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.top {
+  width: 100%;
+  height: 60px;
+  background: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FD384F;
+ 
+}
+
+.top h1 {
+  font-weight: 800;
+}
+
+.homepage {
+  padding: 40px 60px;
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+}
+
+.homeleft {
+  width: 30%;
+}
+
+.hero-pic {
+  width: 100%;
+  height: 450px;
+  background: url("https://image.made-in-china.com/2f0j00EGckLDQPFizu/Sexy-Women-Hip-Lift-Low-Rise-Thong-Crotch-Seamless-Invisible-Ladies-Panty-Underwear.jpg");
+  border-radius: 10px;
+  background-size: cover;
+}
+
+.other-pics {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.pic {
+  width: 100%;
+  height: 90px;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROkPTET8870NnZXmYJdYTW_ets62enzmueEqIC2tMxQuH_x1rMTzw8tcOVN5SVOA3cBOw&usqp=CAU");
+  border-radius: 5px;
+  background-size: cover;
+}
+
+.other-pics .pic2 {
+  background: url("https://cartnear.s3.us-east-2.amazonaws.com/ng/2d13af72e4c7b3e4c1824ec1e3946678.jpg");
+  background-size: cover;
+}
+
+.other-pics .pic3 {
+  background: url("https://t4.ftcdn.net/jpg/02/70/73/81/360_F_270738160_FkRnZBNestljdMFpYRvggEQQoHsGpFLu.jpg");
+  background-size: cover;
+}
+
+.other-pics .pic4 {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2C7-GiAT7BGTJdgvORYui209UkGgrqecRxg&s");
+  background-size: cover;
+}
+
+.home-center {
+  width: 40%;
+}
+
+.top-line {
+  display: flex;
+ align-items: last baseline;
+ gap: 1rem;
+}
+
+.top-line h1 {
+  font-size: 30px;
+  color: #FD384F;
+  font-weight: 800;
+}
+
+.top-line h1 span {
+  font-size: 50px;
+}
+
+.top-line p {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.top-line h4 {
+  color: #FD384F;
+  font-weight: 1;
+  font-size: 21px;
+}
+
+.second-line h3{
+   color: #FD384F;
+   font-size: 12px;
+   padding: 3px 3px;
+   background: #facbd1;
+   width: 80px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 5px;
+}
+
+.second-line {
+  display: flex;
+  gap: 1rem;
+}
+
+.second-line p {
+  color: #FD384F;
+  font-size: 14px;
+}
+.third-line p {
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 25px;
+  line-height: 29px;
+}
+
+.fourth-line {
+  margin-top: 40px;
+}
+
+.fourth-line h3 {
+  opacity: 0.6;
+}
+
+.color {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+   gap: 1rem;
+   margin-top: 15px;
+}
+
+.color-box {
+  width: 100%;
+  height: 70px;
+  background: #102C42;
+  border-radius: 8px;
+}
+
+.color-box2 {
+  background: black;
+}
+
+.color-box3 {
+  background: #454044;
+}
+
+.color-box4 {
+  background: #B70D14;
+}
+
+.color-box5 {
+  background: #84A37F;
+}
+
+.color-box6 {
+  background: #C18C91;
+}
+
+.fifth-line {
+  margin-top: 40px;
+}
+
+.size {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.size-box {
+  font-size: 18px;
+  padding: 7px 26px;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 5px;
+}
+
+.sixth-line {
+  margin-top: 30px;
+}
+
+.sixth-line h2 {
+  font-size: 21px;
+}
+
+.sixth-line p {
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.home-right {
+  border: 1px solid rgba(0,0,0,0.3);
+  width: 30%;
+  padding: 20px 20px;
+  border-radius: 8px;
+}
+
+.home-first p {
+  margin-top: 7px;
+  opacity: 0.6;
+}
+
+.home-first {
+  border-bottom: 1px solid rgba(0,0,0,0.3);
+  padding-bottom: 20px;
+}
+
+.home-second {
+  margin-top: 24px;
+  border-bottom: 1px solid rgba(0,0,0,0.3);
+  padding-bottom: 20px;
+}
+
+.home-third {
+  margin-top: 23px;
+  border-bottom: 1px solid rgba(0,0,0,0.3);
+  padding-bottom: 20px;
+}
+
+.home-second h3 {
+  margin-top: 10px;
+}
+
+.home-second p {
+  font-size: 19px;
+  margin-top: 12px;
+  opacity: 0.7;
+  
+}
+
+.home-fourth {
+  margin-top: 13px;
+}
+
+.home-fourth p {
+  font-size: 20px;
+}
+
+.home-third p {
+  margin-top: 10px;
+  font-size: 19px;
+}
+
+.home-third p span {
+  color: #00996A;
+}
+
+
+.buy-now {
+  margin-top: 100px;
+}
+
+.buy-now button {
+  width: 100%;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+  background: #E23246;
+  color: white;
+  font-size: 19px;
+}
+
+
+
+
+
+@media screen and (max-width: 1100px) {
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 20px;
+}
+
+.homeleft {
+  width: 100%;
+}
+
+.home-center {
+  width: 100%;
+}
+
+.home-right {
+  width: 100%;
+}
+
+.size {
+  display: flex;
+  flex-direction: column;
+}
+
+.size-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+
+.color {
+  overflow: auto;
+}
+
+.color-box2, .color-box5, .color-box6{
+  display: none;
+}
+
+.hero-pic {
+  background-position: center;
+}
+ }
